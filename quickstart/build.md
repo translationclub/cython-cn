@@ -21,7 +21,7 @@ Cython 代码必须编译（不同于 Python），Cython 编译分两个阶段�
 * ``hello.pyx``
   ```python
   def say_hello_to(name):
-      print("Hello %s!" % name)
+      print('Hello %s!' % name)
   ```
 * 对应的 ``setup.py``
   ```python
@@ -29,8 +29,8 @@ Cython 代码必须编译（不同于 Python），Cython 编译分两个阶段�
   from Cython.Build import cythonize
 
   setup(
-    name = 'Hello world app',
-    ext_modules = cythonize("hello.pyx"),
+      name = 'Hello',
+      ext_modules = cythonize('hello.pyx'),
   )
   ```
 

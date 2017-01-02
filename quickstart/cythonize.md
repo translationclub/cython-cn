@@ -10,13 +10,13 @@ Cython 是 Python 编译器，这意味着无须改动即可编译原生 Python 
 
 ```python
 def f(x):
-    return x**2-x
+    return x ** 2 - x
 
 def integrate_f(a, b, N):
     s = 0
-    dx = (b-a)/N
+    dx = (b - a) / N
     for i in range(N):
-        s += f(a+i*dx)
+        s += f(a + i * dx)
     return s * dx
 ```
 
@@ -26,15 +26,15 @@ def integrate_f(a, b, N):
 
 ```cython
 def f(double x):
-    return x**2-x
+    return x ** 2 - x
 
 def integrate_f(double a, double b, int N):
     cdef int i
     cdef double s, dx
     s = 0
-    dx = (b-a)/N
+    dx = (b - a) / N
     for i in range(N):
-        s += f(a+i*dx)
+        s += f(a + i * dx)
     return s * dx
 ```
 
