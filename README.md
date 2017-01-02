@@ -13,6 +13,6 @@
 
 * [Cython 源码](https://github.com/cython/cython)
 * [Cython 官网](http://cython.org/)
-* [Cython 英文文档](http://docs.cython.org/en/latest/)
+* [Cython 官方文档（英文）](http://docs.cython.org/en/latest/)
 
 ## 附录Ⅱ - 翻译约定

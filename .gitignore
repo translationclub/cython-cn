@@ -1,0 +1,9 @@
+# Filename Extension
+*.c
+*.so
+*.pyc
+*.pyd
+*.pyo
+
+# File Path
+/demo/*/*/*/build/
